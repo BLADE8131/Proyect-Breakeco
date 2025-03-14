@@ -3,3 +3,4 @@ yo voy a basarme de el proyecto de scraping para tomar informacion de un sito we
 * bs4
 * flask
 * nltk
+![image](https://github.com/user-attachments/assets/46083f16-1b15-4d04-9d08-ff6312af2502)
