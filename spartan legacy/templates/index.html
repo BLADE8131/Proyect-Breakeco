@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>reading view proyect: spartan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Reading view proyect: spartan eco edition</h1>
+        <form action="/" method="post">
+            <input type="text" name="url" placeholder="Ingresa la URL de la pagina web" required>
+            <button>
+                <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Botón">
+            </button>
+            
+        </form>
+    </div>
+</body>
+</html>

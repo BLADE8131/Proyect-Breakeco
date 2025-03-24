@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="article-container">
+        <h1>{{ title }}</h1>
+        {% if subtitle %}
+        <h2>{{ subtitle }}</h2>
+        {% endif %}
+        {% for paragraph in paragraphs %}
+            <p>{{ paragraph }}</p>
+        {% endfor %}
+        <a href="{{ url_for('index') }}" class="back-button">Volver</a>
+    </div>
+</body>
+</html>
