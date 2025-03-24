@@ -10,9 +10,14 @@ yo voy a basarme de el proyecto de scraping para tomar información de un sito w
 
   
 las Tecnologias que voy a utilizar son:
-* bs4
-* flask
-* nltk
+# bs4 ![image](https://github.com/user-attachments/assets/e422e466-9b75-4f36-b2db-a70893295bd1)
+
+
+# flask ![image](https://github.com/user-attachments/assets/71c8a0b3-cc5b-476e-9e2e-3969dabea445)
+
+# nltk ![image](https://github.com/user-attachments/assets/402b1910-906d-48b3-bbb1-9b30f95e3fb7)
+
+
 
 
 
